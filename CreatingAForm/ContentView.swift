@@ -10,7 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        Form {
+            // Form limitation for 10 items e.g. Text("")
+            Group {
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+            }
+            Group {
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+            }
+        }
     }
 }
 
